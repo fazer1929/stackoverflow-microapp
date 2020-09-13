@@ -1,0 +1,54 @@
+.cardContainer{
+    margin: 15px;
+    padding: 15px;
+    display:flex;
+    flex-direction: row;
+    border:2px solid gainsboro;
+    align-items: center;
+    width:80%;
+    height: max-content;
+}
+
+.cardAvatar{
+    width: 100px;
+    height: max-content;
+    
+}
+.cardAuthor{
+    overflow: hidden;
+    height: auto;
+}
+.cardAvatarImage{
+    height: 70px;
+    width: 70px;
+
+    border: 1px solid black;
+    border-radius: 50%;
+}
+
+.cardContent{
+    margin-left: 30px;
+  
+}
+
+.cardAuthor{
+    text-align: left;
+    font-weight: 500;
+    line-height: 95%;
+    color:gray;
+}
+
+.cardHeading{
+
+}
+
+.cardContentTags{
+    border-top: 1px solid gainsboro;
+}
+.tag{
+    
+    margin-right: 10px;
+    color: gray;
+    font-style: italic;
+    font-weight: 500;
+}
