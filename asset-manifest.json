@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/stackoverflow-microapp/static/css/main.268e27fa.chunk.css",
+    "main.js": "/stackoverflow-microapp/static/js/main.7de849b1.chunk.js",
+    "main.js.map": "/stackoverflow-microapp/static/js/main.7de849b1.chunk.js.map",
+    "runtime-main.js": "/stackoverflow-microapp/static/js/runtime-main.ee18140f.js",
+    "runtime-main.js.map": "/stackoverflow-microapp/static/js/runtime-main.ee18140f.js.map",
+    "static/js/2.eb813c91.chunk.js": "/stackoverflow-microapp/static/js/2.eb813c91.chunk.js",
+    "static/js/2.eb813c91.chunk.js.map": "/stackoverflow-microapp/static/js/2.eb813c91.chunk.js.map",
+    "index.html": "/stackoverflow-microapp/index.html",
+    "precache-manifest.8a88312a8e15a46795310cb87f483e86.js": "/stackoverflow-microapp/precache-manifest.8a88312a8e15a46795310cb87f483e86.js",
+    "service-worker.js": "/stackoverflow-microapp/service-worker.js",
+    "static/css/main.268e27fa.chunk.css.map": "/stackoverflow-microapp/static/css/main.268e27fa.chunk.css.map",
+    "static/js/2.eb813c91.chunk.js.LICENSE.txt": "/stackoverflow-microapp/static/js/2.eb813c91.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/stackoverflow-microapp/static/media/logo.5d5d9eef.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ee18140f.js",
+    "static/js/2.eb813c91.chunk.js",
+    "static/css/main.268e27fa.chunk.css",
+    "static/js/main.7de849b1.chunk.js"
+  ]
+}
