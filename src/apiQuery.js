@@ -1,14 +1,14 @@
 import React,{useEffect,useState} from 'react'
 import { useStateValue } from './StateProvider'
-export default function useApiQuery(pageNumber) {
+export default function useApiQuery() {
     const[loading,setLoading] = useState(false);
-    const[{items},dispatch] = useStateValue();
-
+    const[{items,page},dispatch] = useStateValue();
+    
 
 
     useEffect(() => {
     setLoading(true)
-    fetch(`https://api.stackexchange.com/2.2/questions?page=${pageNumber}&pagesize=30&order=desc&sort=hot&site=stackoverflow`)
+    fetch(`https://api.stackexchange.com/2.2/questions?page=${page}&pagesize=30&order=desc&sort=hot&site=stackoverflow`)
     .then(res =>res.json())
     .then(result => {
         // setItems(result.items)
@@ -18,6 +18,7 @@ export default function useApiQuery(pageNumber) {
         });
         setLoading(false)
     })
-    },[pageNumber])
+    },[page])
+
     return {loading};
 }

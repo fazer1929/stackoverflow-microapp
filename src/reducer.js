@@ -1,5 +1,6 @@
 export const initialState = {
     items:[], 
+    page:1,
 };
 
 
@@ -12,21 +13,11 @@ const reducer = (state, action) => {
                 items: [...state.items, ...action.item]
             };
 
-        case 'REMOVE_FROM_BASKET':
-            const index = state.basket.findIndex(
-                (basketItem) => basketItem.id === action.id
-            );            
-            let newBasket = [...state.basket];
-            if(index >= 0){
-                newBasket.splice(index,1)
+        case 'CHNAGE_PAGE':
+            return{
+                ...state,
+                page:action.page
             }
-            else{
-                console.warn("Cant Remove SHIT!")
-            }
-
-            return {...state,
-                basket:newBasket}
-
         default:
             return  state
     }
