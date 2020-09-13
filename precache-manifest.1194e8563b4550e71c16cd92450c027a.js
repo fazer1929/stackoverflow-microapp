@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "7802ab7546b265878ef00e44f73d80a5",
+    "revision": "29f7157e8f35e675abf9d9d34eaebc77",
     "url": "/stackoverflow-microapp/index.html"
   },
   {
-    "revision": "2475ec88bd7faf1e837e",
+    "revision": "a4fafba4ffab8e392cda",
     "url": "/stackoverflow-microapp/static/css/main.268e27fa.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/stackoverflow-microapp/static/js/2.eb813c91.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "2475ec88bd7faf1e837e",
-    "url": "/stackoverflow-microapp/static/js/main.7de849b1.chunk.js"
+    "revision": "a4fafba4ffab8e392cda",
+    "url": "/stackoverflow-microapp/static/js/main.946cbc38.chunk.js"
   },
   {
     "revision": "9308a7e31cae22fca7d0",
